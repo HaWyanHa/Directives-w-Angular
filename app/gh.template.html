@@ -1,0 +1,17 @@
+<h2>{{profileInfo.name}}</h2>
+<p>{{profileInfo.email}}</p>
+<p><a href="{{profileInfo.url}}">{{profileInfo.login}}</a></p>
+
+<div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+	<div class="flipper">
+		<div class="front">
+			<!-- front content -->
+			<p>Wanna see my picture?<p>
+		</div>
+		<div class="back">
+			<!-- back content -->
+			<img src={{profileInfo.avatar}}>
+		</div>
+	</div>
+</div>
+
